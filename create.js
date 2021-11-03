@@ -10,7 +10,7 @@ submit.addEventListener('click',(e)=>{
         body: JSON.stringify({
             "name": (desc_input.value),
             "description": (title_input.value),
-            "image_url": ""
+            "image_url": (file_input.value)
           }),
         headers: {
             "Content-type": "application/json; charset=UTF-8"
